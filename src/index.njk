@@ -14,15 +14,13 @@ title: Brain Fuel Pizza
         </div>
     </div>
     <table id="pizzameny">
-        <div class="menu">
-            {% asyncAll pizza in pizzameny %}
-            <tr>
-                <th>{{ pizza.name }}</th>
-                <th>{{ pizza.ingredients }}</th>
-                <th>{{ pizza.price }}</th>
-            </tr>
-            {% endall %}
-        </div>
+        {% asyncAll pizza in pizzameny %}
+        <tr class="menuborder">
+            <td>{{ pizza.name }}</td>
+            <td>{{ pizza.ingredients }}</td>
+            <td>{{ pizza.price }}</td>
+        </tr>
+        {% endall %}
     </table>
     <div id="about" class="about">
         <h2>

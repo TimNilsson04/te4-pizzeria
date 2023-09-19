@@ -19,7 +19,7 @@ body {
 
 .container {
     position: relative;
-    width: min(54rem, 100vw - 1em);
+    width: min(86rem, 100vw - 1em);
     display: grid;
     justify-items: center;
     margin-left: auto;
@@ -95,17 +95,22 @@ button {
     font-family: 'Brygada 1918', serif;
 }
 
-th,
+
 td {
     font-size: 2rem;
-    height: 3rem;
     border-bottom: 1px solid #8b8b8b;
 }
 
-tr:hover {
-    transition-duration: 1s;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473), 0 17px 50px 0 rgba(0, 0, 0, 0.788);
+@media only screen and (max-width: 600px) {
+
+    td {
+        display: grid;
+        grid-template-columns: auto;
+        border-bottom: none;
+    }
 }
+
+
 
 .header {
     display: grid;
