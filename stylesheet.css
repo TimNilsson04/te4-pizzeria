@@ -46,6 +46,13 @@ button {
     position: relative;
 }
 
-table {
-    background-color: #333;
+th,
+td {
+    height: 3rem;
+    border-bottom: 1px solid #8b8b8b;
+}
+
+tr:hover {
+    transition-duration: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.473), 0 17px 50px 0 rgba(0, 0, 0, 0.788);
 }
