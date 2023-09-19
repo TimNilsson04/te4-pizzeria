@@ -1,0 +1,23 @@
+:root {
+    /* Custom pairs */
+    --base-font: sans-serif;
+    --color-fg: #333;
+    --color-bg: #f1f1f1;
+    --color-primary: #790d0d;
+    --color-secondary: #a76631;
+    --color-link: rgb(171, 180, 196)
+}
+
+body {
+    font-family: var(--base-font);
+    color: var(--color-bg);
+    background-color: var(--color-fg);
+}
+
+.container {
+    width: min(54rem, 100vw - 1em);
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
