@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria</title>
+    <script type="text/javascript" src="./pizzameny.js"></script>></script>
 </head>
 
 <body>
@@ -15,9 +16,15 @@
             <button>Öppettider</button>
             <button>Kontakta oss</button>
         </div>
-        <div class="menu">
-            Pizzameny grejor
-        </div>
+        <table id="pizzameny" border="2">
+            <div class="menu">
+                <tr>
+                    <th>name</th>
+                    <th>ingredients</th>
+                    <th>price</th>
+                </tr>
+            </div>
+        </table>
         <div class="oppettider">
             <h1>
                 Öppettider
