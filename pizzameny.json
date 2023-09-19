@@ -3,102 +3,102 @@
         {
             "name": "Margheritapizza",
             "ingredients": "Tomatsås, mozzarellaost, färsk basilika, olivolja.",
-            "pris": "80 kr"
+            "price": "80 kr"
         },
         {
             "name": "Pepperonipizza",
             "ingredients": "Tomatsås, pepperoni, mozzarellaost.",
-            "pris": "85 kr"
+            "price": "85 kr"
         },
         {
             "name": "Vegetarisk Pizza",
             "ingredients": "Tomatsås, mozzarellaost, paprika, lök, svamp, oliver.",
-            "pris": "90 kr"
+            "price": "90 kr"
         },
         {
             "name": "Hawaii Pizza",
             "ingredients": "Tomatsås, mozzarellaost, skinka, ananas.",
-            "pris": "85 kr"
+            "price": "85 kr"
         },
         {
             "name": "Capricciosa Pizza",
             "ingredients": "Tomatsås, mozzarellaost, skinka, champinjoner, oliver.",
-            "pris": "90 kr"
+            "price": "90 kr"
         },
         {
             "name": "Quattro Stagioni Pizza",
             "ingredients": "Tomatsås, mozzarellaost, skinka, champinjoner, kronärtskockshjärtan, oliver.",
-            "pris": "95 kr"
+            "price": "95 kr"
         },
         {
             "name": "Quattro Formaggi Pizza",
             "ingredients": "Vit sås, mozzarellaost, gorgonzola, parmesan, ricotta.",
-            "pris": "100 kr"
+            "price": "100 kr"
         },
         {
             "name": "Calzone",
             "ingredients": "Tomatsås, mozzarellaost, skinka, champinjoner, serveras vikt som en calzone (inhöljd pizza).",
-            "pris": "95 kr"
+            "price": "95 kr"
         },
         {
             "name": "BBQ Kycklingpizza",
             "ingredients": "BBQ-sås, mozzarellaost, grillad kyckling, rödlök, färsk koriander.",
-            "pris": "100 kr"
+            "price": "100 kr"
         },
         {
             "name": "Salsicciapizza",
             "ingredients": "Tomatsås, mozzarellaost, italiensk korv, paprika, lök.",
-            "pris": "95 kr"
+            "price": "95 kr"
         },
         {
             "name": "Frutti di Mare Pizza",
             "ingredients": "Tomatsås, mozzarellaost, blandade skaldjur, vitlök, persilja.",
-            "pris": "110 kr"
+            "price": "110 kr"
         },
         {
             "name": "Vesuvio Pizza",
             "ingredients": "Tomatsås, mozzarellaost, rökt skinka, ägg.",
-            "pris": " 90 kr"
+            "price": " 90 kr"
         },
         {
             "name": "Fyra Säsonger Pizza",
             "ingredients": "Tomatsås, mozzarellaost, skinka, kronärtskockshjärtan, oliver, räkor.",
-            "pris": "105 kr"
+            "price": "105 kr"
         },
         {
             "name": "Vegan Pizza",
             "ingredients": "Tomatsås, vegansk ost, grillad paprika, zucchini, svamp, svarta oliver.",
-            "pris": "95 kr"
+            "price": "95 kr"
         },
         {
             "name": "Hawaiipizza Special",
             "ingredients": "Tomatsås, mozzarellaost, skinka, ananas, räkor, champinjoner.",
-            "pris": "110 kr"
+            "price": "110 kr"
         },
         {
             "name": "Primavera Pizza",
             "ingredients": "Tomatsås, mozzarellaost, färsk tomat, ruccola, parmesan.",
-            "pris": "95 kr"
+            "price": "95 kr"
         },
         {
             "name": "Prosciutto e Rucola Pizza",
             "ingredients": "Tomatsås, mozzarellaost, lufttorkad skinka, ruccola, parmesan.",
-            "pris": "105 kr"
+            "price": "105 kr"
         },
         {
             "name": "Caprese Pizza",
             "ingredients": "Tomatsås, mozzarellaost, körsbärstomater, färsk basilika, balsamvinäger.",
-            "pris": "100 kr"
+            "price": "100 kr"
         },
         {
             "name": "Vesuvio Bianca",
             "ingredients": "Vit sås, mozzarellaost, rökt skinka, färsk tomat, rucola.",
-            "pris": "95 kr"
+            "price": "95 kr"
         },
         {
             "name": "Siciliana Pizza",
-            "ingredients": "Tomatsås, mozzarellaost, salami, oliver, kapris, oregano.",
-            "pris": "90 kr"
+            "ingredients": "Tomatsås, mozzarellaost, salami, oliver, kaprice, oregano.",
+            "price": "90 kr"
         }
     ]
 }
