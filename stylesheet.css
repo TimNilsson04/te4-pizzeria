@@ -9,19 +9,39 @@
 }
 
 body {
+    position: relative;
     font-family: var(--base-font);
     color: var(--color-bg);
     background-color: var(--color-fg);
 }
 
 .container {
+    position: relative;
     width: min(54rem, 100vw - 1em);
     display: grid;
-    justify-content: center;
+    justify-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+body::before {
+    content: "";
+    position: absolute;
     background-image: url(./images/kajetan-sumila-e8ULlZbWu0I-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+h1,
+h2,
+h3,
+table,
+button {
+    position: relative;
 }
