@@ -45,3 +45,7 @@ table,
 button {
     position: relative;
 }
+
+table {
+    background-color: #333;
+}
