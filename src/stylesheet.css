@@ -95,6 +95,17 @@ button {
     font-family: 'Brygada 1918', serif;
 }
 
+table {
+    width: 170%;
+}
+
+@media only screen and (max-width: 600px) {
+    th {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 th,
 td {
     font-size: 2rem;
