@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Italianno&display=swap');
+
 :root {
     /* Custom pairs */
     --base-font: sans-serif;
@@ -78,16 +80,27 @@ body::before {
     opacity: 0.3;
 }
 
-h1,
+h1 {
+    position: relative;
+    font-family: 'Italianno', cursive;
+    font-size: 6rem;
+}
+
 h2,
 h3,
 table,
 button {
     position: relative;
+    font-family: 'Brygada 1918', serif;
+}
+
+table {
+    width: 150%;
 }
 
 th,
 td {
+    font-size: 2rem;
     height: 3rem;
     border-bottom: 1px solid #8b8b8b;
 }
