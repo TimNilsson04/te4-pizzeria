@@ -13,9 +13,9 @@ title: Brain Fuel Pizza
             <a href="#about"><button class="button"><span>Kontakta oss</span></button></a>
         </div>
     </div>
-    <table id="pizzameny">
+    <table>
         {% asyncAll pizza in pizzameny %}
-        <tr class="menuborder">
+        <tr>
             <td>{{ pizza.name }}</td>
             <td>{{ pizza.ingredients }}</td>
             <td>{{ pizza.price }}</td>
