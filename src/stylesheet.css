@@ -108,12 +108,21 @@ td {
     border-bottom: 1px solid #8b8b8b;
 }
 
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
 @media only screen and (max-width: 600px) {
 
     td {
         display: grid;
         grid-template-columns: auto;
         border-bottom: none;
+    }
+
+    tr {
+        border-bottom: 1px solid #8b8b8b;
     }
 }
 
